@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".F_dimsum"
+    android:orientation="vertical">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/imageslider2"
+        android:layout_width="wrap_content"
+        android:layout_height="328dp"
+        app:iss_auto_cycle="true"
+        app:iss_text_align="CENTER"
+        app:iss_title_background="@color/title"/>
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:id="@+id/midimsum"
+            android:layout_height="60dp"
+            android:text="More Info"
+            android:textColor="@color/black"
+            android:background="#FFB534"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

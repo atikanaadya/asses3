@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".awal"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+
+    <com.ncorti.slidetoact.SlideToActView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:slider_icon="@drawable/baseline_keyboard_double_arrow_right_24"
+        app:complete_icon="@drawable/baseline_check_24"
+        app:text="Menuju Tab Layout"
+        app:inner_color="@color/black"
+        app:outer_color="#FFB534"
+        app:area_margin="5dp"
+        app:icon_margin="5dp"
+        app:text_size="20sp"
+        app:text_style="bold"
+        app:slider_height="75dp"
+        app:bounce_on_start="true"
+        app:slider_locked="false"
+        android:id="@+id/slide"/>
+
+</LinearLayout>
